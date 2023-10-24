@@ -47,10 +47,8 @@ void bitonic_merge(char up, int *array, size_t size)
  * bit_sort - recursive function using the Bitonic.
  * @up: up direction of sorting
  * @array: sub-array to sort
- * @size: size of the sub-array
- * @t: total size of the original array
- *
- * Return: void
+ * @size: size  sub-array
+ * @t: total size
  */
 void bit_sort(char up, int *array, size_t size, size_t t)
 {
@@ -67,10 +65,9 @@ void bit_sort(char up, int *array, size_t size, size_t t)
 }
 
 /**
- * bitonic_sort - sorts an array of integers in ascending order using
- * the Bitonic sort algorithm
+ * bitonic_sort - sorts an array of integers in ascending order using BITONIC
  * @array: array to sort
- * @size: size of the array
+ * @size: AARRAY SIZE
  *
  * Return: void
  */
